@@ -1,0 +1,57 @@
+p{
+  font-family: Roboto;
+  margin-top: 0;
+}
+
+.vid-title{
+  font-weight: bold;
+  font-size:18px;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom:5px;
+}
+
+.vid-stats{
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 16px;
+}
+
+.vid-author{
+  color:#606060;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.vid-descr{
+  color:#606060;
+  font-size: 14px;
+  line-height: 20px;
+  width:280px;
+  margin-bottom: 100px;
+}
+
+.apple-text{
+  margin-bottom: 50px;
+  color: white;
+  font-size: 14px;
+  background-color: #e34140;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  
+}
+.apple-text-shop{
+  font-weight: bold;
+  margin-left: 5px;
+  color:white;
+  text-decoration: none; 
+  background-color: none;
+}
+
+
+
+.apple-text-shop:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
