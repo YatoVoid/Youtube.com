@@ -1,71 +1,34 @@
 <!DOCTYPE html>
+
 <html>
   <head>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
     <title>YouTube.com</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
-    <style>
-
-      p{
-        font-family: Roboto,Arial;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-
-      .thumbnail{
-        width:100%;
-      }
-
-      .search-bar{
-        display: block;
-      }
-      
-     
-
-      .video-info-grid{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .video-title{
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 500;
-        line-height:20px;
-        margin-bottom: 12px;
-      }
-
-      .profile-picture{
-        width:40px;
-        border-radius: 100%;
-      }
-
-      .thumbnail-row{
-        margin-bottom: 12px;
-      }
-
-      .video-author,
-      .video-stats{
-        font-size: 12px;
-        color:rgb(96,96,96);
-      }
-
-      .video-author{
-        margin-bottom: 4px;
-      }
-
-      .video-grid{
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 16px;
-        row-gap: 40px;
-      }
-    </style>
-  </head>
+   
 
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
+    <div class="header">
+      <div class="left-section">
+        <img class ="hamburger-menu"src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+         
+      </div>
+
+      <div class="right-section">
+        right section
+      </div>
+
+      
+    </div>
+
     
     <div class="video-grid">
 
@@ -187,25 +150,25 @@
   
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class ="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <img class ="thumbnail" src="thumbnails/thumbnail-5.webp">
         </div>
   
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class = "profile-picture" src="channel-pictures/channel-2.jpeg">
+            <img class = "profile-picture" src="channel-pictures/channel-5.jpg">
           </div>
           
           <div class="video-info">
             <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
+              How to make a nuclear reactor at home
             </p>
         
             <p class="video-author">
-              Markiplier
+              Robert Eagle
             </p>
         
             <p class="video-stats">
-              19M views &#183; 4 years ago
+              2.8M views &#183; 14 years ago
             </p>
           </div>
           
@@ -216,25 +179,25 @@
   
       <div class="video-preview">
         <div class="thumbnail-row">
-          <img class ="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <img class ="thumbnail" src="thumbnails/thumbnail-6.webp">
         </div>
   
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class = "profile-picture" src="channel-pictures/channel-2.jpeg">
+            <img class = "profile-picture" src="channel-pictures/channel-6.jpg">
           </div>
           
           <div class="video-info">
             <p class="video-title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
+              The Fastest Way To Become A Software Engineer
             </p>
         
             <p class="video-author">
-              Markiplier
+              Nick White
             </p>
         
             <p class="video-stats">
-              19M views &#183; 4 years ago
+              53K views &#183; 5 months ago
             </p>
           </div>
           
